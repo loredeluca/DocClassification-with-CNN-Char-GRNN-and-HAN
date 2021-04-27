@@ -1,7 +1,8 @@
-from prova import getIMDB
+from prova import readIMDB
 
 if __name__ == '__main__':
 
-    dataset_name, n_classes, data_df = getIMDB()
-    print(dataset_name, n_classes)
+    dataset_name, n_classes, data_df = readIMDB()
     print(data_df.head())
+
+
