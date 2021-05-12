@@ -14,7 +14,7 @@ class Solver(object):
         self.eval_loader = eval_loader
         self.test_loader = test_loader
 
-        self.device = 'cpu'#torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         """
         if args.device:
             self.device = torch.device(args.device)
