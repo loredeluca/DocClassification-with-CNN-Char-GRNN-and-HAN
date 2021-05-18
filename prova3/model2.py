@@ -87,6 +87,7 @@ class SentenceRNN(nn.Module):
         doc = attention_mul(out_state, attn)
         d = self.doc_linear(doc)
         cls = F.log_softmax(d.view(-1, self.cls), dim=1)
+        print("CLASS: ", cls)
         return cls, hid_state
 
     def init_hidden_sent(self):
