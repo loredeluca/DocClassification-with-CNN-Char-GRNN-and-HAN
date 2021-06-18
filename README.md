@@ -27,13 +27,10 @@ An example of Visulization of Attention in HAN on the Yelp2013 dataset can be se
 </p>
 
 ## Getting Started
-After cloning the repository, install the dependencies 
-<!--- 
-with the command line:
+After cloning the repository, install the dependencies with the command line:
 ```
 $ pip install -r requirements.txt
 ```
---->
 Then setup the following file structure within the data directory:
 ```tree
 .
@@ -79,4 +76,4 @@ NB: it's strongly recommended to use a GPU to train the models
 
 [2] Duyu Tang,Bing Qin and Ting Liu. 2015. [Document modeling with gated recurrent neural network for sentiment classification](https://www.aclweb.org/anthology/D15-1167/). In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pages 1422–1432.
 
-[3] Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy. 2016. [Hierarchical attention networks for document classification](https://www.aclweb.org/anthology/N16-1174/). In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Lan- guage Technologies, pages 1480–1489.
+[3] Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy. 2016. [Hierarchical attention networks for document classification](https://www.aclweb.org/anthology/N16-1174/). In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 1480–1489.
