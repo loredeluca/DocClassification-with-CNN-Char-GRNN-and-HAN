@@ -71,9 +71,10 @@ On the first run it will preprocess the data and create the Word2Vec model (for 
 
 NB: it's strongly recommended to use a GPU to train the models
 
+### More details
 More information can be found in the report [Classificazione dei Documenti con CNN-Char, GRNN e HAN](https://github.com/loredeluca/DocClassification-with-CNN-Char-GRNN-and-HAN/blob/main/paper.pdf)
 
-### References
+## References
 [1] Xiang Zhang, Junbo Zhao and Yann LeCun. 2015. [Character-level convolutional networks for text classification](https://proceedings.neurips.cc/paper/2015/hash/250cf8b51c773f3f8dc8b4be867a9a02-Abstract.html). In Advances in Neural Information Processing Systems 28: Annual Conference on Neural Information Processing Systems, pages 649–657.
 
 [2] Duyu Tang,Bing Qin and Ting Liu. 2015. [Document modeling with gated recurrent neural network for sentiment classification](https://www.aclweb.org/anthology/D15-1167/). In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pages 1422–1432.
